@@ -17,19 +17,19 @@
 
 .form > span {
   color: var(--grey-color-light);
-  margin-bottom: 10px;
+  margin-bottom: var(--medium-size);
   align-self: flex-start;
   font-size: 14px;
   font-weight: 700;
 }
 
 .form input {
-  font-size: 20px;
+  font-size: var(--large-size);
   outline: 0px;
-  padding: 5px;
-  margin-bottom: 15px;
+  padding: var(--short-size);
+  margin-bottom: 1var (--short-size);
   border: 0px;
-  border-radius: 5px;
+  border-radius: var(--short-size);
   background-color: var(--grey-color-darker);
   color: var(--white-color);
 }
@@ -41,25 +41,25 @@
 
 .birth select {
   background-color: var(--grey-color-darker);
-  padding: 10px;
+  padding: var(--medium-size);
   width: 140px;
   color: var(--grey-color-light);
-  border-radius: 5px;
+  border-radius: var(--short-size);
   border: none;
 }
 
 .optional {
-  margin-top: 20px;
+  margin-top: var(--large-size);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 10px;
+  gap: var(--medium-size);
 }
 
 .optional input[type="checkbox"] {
   position: relative;
-  width: 30px;
-  height: 30px;
+  width: var(--extra-large-size);
+  height: var(--extra-large-size);
   background-color: var(--grey-color-dark);
   border-radius: 8px;
   appearance: none;
@@ -77,7 +77,7 @@
   position: absolute;
   top: 3px;
   left: 9px;
-  width: 5px;
+  width: var(--short-size);
   height: 13px;
   border: 4px solid transparent;
   border-top: none;
@@ -92,7 +92,7 @@
 .optional label {
   margin: 0;
   color: var(--grey-color-light);
-  font-size: 12px;
+  font-size: 14px;
   text-align: left;
   width: 400px;
 }
@@ -102,13 +102,13 @@
 }
 
 .continue {
-  margin-top: 20px;
-  border-radius: 3px;
+  margin-top: var(--large-size);
+  border-radius: var(--short-size);
   color: var(--grey-color-light);
   border-radius: 8px;
   border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
+  padding: var(--medium-size);
+  font-size: 16px;
   font-weight: 500;
   font-family: inherit;
   background-color: var(--violet-color);
@@ -116,7 +116,7 @@
 }
 
 .account {
-  margin-top: 20px;
+  margin-top: var(--large-size);
   text-align: left;
   color: var(--blue-color-light);
 }

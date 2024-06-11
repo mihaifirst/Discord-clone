@@ -21,7 +21,11 @@
   --blue-color-light: rgb(75, 155, 229);
   --violet-color: rgb(90, 100, 234);
 
-  /* Margins */
+  /* Size */
+  --short-size: 5px;
+  --medium-size: 10px;
+  --large-size: 20px;
+  --extra-large-size: 30px;
 }
 
 body {
