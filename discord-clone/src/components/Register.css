@@ -1,11 +1,3 @@
-.container {
-  box-sizing: border-box;
-  width: 500px;
-  padding: 30px;
-  background-color: var(--grey-color);
-  border-radius: 10px;
-}
-
 .container > span {
   color: white;
   font-size: 24px;

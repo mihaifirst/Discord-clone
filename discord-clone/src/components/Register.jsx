@@ -42,7 +42,7 @@ const Register = () => {
               and special offers. You can opt out at any time
             </label>
           </div>
-          <button className="continue ">Continue</button>
+          <button className="continue">Continue</button>
           <div className="optional ">
             <input type="checkbox" />
             <label>

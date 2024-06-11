@@ -1,0 +1,77 @@
+.container {
+  box-sizing: border-box;
+  min-width: 500px;
+  padding: 30px;
+  background-color: var(--grey-color);
+  border-radius: 10px;
+}
+
+.flex {
+  display: flex;
+  gap: 50px;
+}
+
+.login-container {
+  width: 500px;
+}
+
+.login-container > span {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.login-container > p {
+  margin-top: 10px;
+  color: rgb(187, 191, 197);
+}
+
+.login-container .form input {
+  padding: 10px;
+}
+
+.login-container .form input[type="password"] {
+  margin-bottom: 5px;
+}
+
+.login-container .form a {
+  color: rgb(76, 162, 241);
+  text-decoration: none;
+  text-align: left;
+}
+
+.login-container .continue {
+  background-color: rgb(91, 100, 233);
+  border-radius: 5px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.qr-container {
+  max-width: 260px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.qr-img {
+  width: 200px;
+  margin-bottom: 30px;
+}
+
+.qr-img img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.qr-container span {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.qr-container p {
+  color: rgb(180, 184, 191);
+  margin: unset;
+}
