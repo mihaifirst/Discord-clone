@@ -29,7 +29,7 @@ const Login = () => {
           <div className="qr-img">
             <img src={image1} />
           </div>
-          <span>Log in with QR Code</span>
+          <span>Log in with QR Code.</span>
           <p>Scan this with the Discord mobile app to log in instantly.</p>
         </div>
       </div>
