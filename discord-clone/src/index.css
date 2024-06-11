@@ -12,7 +12,16 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  --grey-color: rgb(50, 51, 56);
+  /* Colors */
+  --grey-color-light: rgb(156, 152, 152);
+  --grey-color-dark: rgb(50, 51, 56);
+  --grey-color-darker: rgb(30, 31, 34);
+  --red-color: red;
+  --white-color: white;
+  --blue-color-light: rgb(75, 155, 229);
+  --violet-color: rgb(90, 100, 234);
+
+  /* Margins */
 }
 
 body {

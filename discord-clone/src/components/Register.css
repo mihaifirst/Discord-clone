@@ -1,5 +1,5 @@
 .container > span {
-  color: white;
+  color: var(--white-color);
   font-size: 24px;
   font-weight: 600;
   margin-top: 0;
@@ -12,11 +12,11 @@
 }
 
 .form span {
-  color: red;
+  color: var(--red-color);
 }
 
 .form > span {
-  color: rgb(182, 187, 193);
+  color: var(--grey-color-light);
   margin-bottom: 10px;
   align-self: flex-start;
   font-size: 14px;
@@ -30,8 +30,8 @@
   margin-bottom: 15px;
   border: 0px;
   border-radius: 5px;
-  background-color: rgb(30, 31, 34);
-  color: white;
+  background-color: var(--grey-color-darker);
+  color: var(--white-color);
 }
 
 .birth {
@@ -40,10 +40,10 @@
 }
 
 .birth select {
-  background-color: rgb(30, 31, 34);
+  background-color: var(--grey-color-darker);
   padding: 10px;
   width: 140px;
-  color: rgb(153, 159, 167);
+  color: var(--grey-color-light);
   border-radius: 5px;
   border: none;
 }
@@ -60,16 +60,16 @@
   position: relative;
   width: 30px;
   height: 30px;
-  background-color: rgb(53, 54, 59);
+  background-color: var(--grey-color-dark);
   border-radius: 8px;
   appearance: none;
   cursor: pointer;
   margin: 0;
-  border: 2px solid rgb(156, 152, 152);
+  border: 2px solid var(--grey-color-light);
 }
 
 .optional input[type="checkbox"]:checked {
-  background-color: rgb(90, 100, 234);
+  background-color: var(--violet-color);
 }
 
 .optional input[type="checkbox"]::before {
@@ -86,42 +86,41 @@
 }
 
 .optional input[type="checkbox"]:checked::before {
-  border-color: white;
+  border-color: var(--white-color);
 }
 
 .optional label {
   margin: 0;
-  color: rgb(151, 156, 164);
+  color: var(--grey-color-light);
   font-size: 12px;
   text-align: left;
   width: 400px;
 }
 
 .optional label a {
-  color: rgb(75, 155, 229);
+  color: var(--blue-color-light);
 }
 
 .continue {
   margin-top: 20px;
   border-radius: 3px;
-  background-color: rgb(90, 100, 234);
-  color: rgb(152, 152, 155);
+  color: var(--grey-color-light);
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: rgb(72, 77, 144);
+  background-color: var(--violet-color);
   cursor: pointer;
 }
 
 .account {
   margin-top: 20px;
   text-align: left;
-  color: rgb(75, 155, 229);
+  color: var(--blue-color-light);
 }
 
 .white {
-  color: white;
+  color: var(--white-color);
 }
