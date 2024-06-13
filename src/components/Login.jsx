@@ -1,5 +1,5 @@
 import React from "react";
-import "./Login.css";
+import "./Login.scss";
 import image1 from "../assets/images/Example-QR-code.webp";
 
 const Login = () => {
