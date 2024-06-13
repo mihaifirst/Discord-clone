@@ -1,0 +1,43 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Colors */
+  --grey-color-light: rgb(156, 152, 152);
+  --grey-color-dark: rgb(50, 51, 56);
+  --grey-color-darker: rgb(30, 31, 34);
+  --red-color: #ed4245;
+  --white-color: #ffffff;
+  --blue-color-light: rgb(75, 155, 229);
+  --violet-color: rgb(90, 100, 234);
+  --green-color: #57f287;
+  --yellow-color: #fee75c;
+  --pink-color: #eb459e;
+  --dark-color: #000000;
+
+  /* Size */
+  --short-size: 5px;
+  --medium-size: 10px;
+  --large-size: 20px;
+  --extra-large-size: 30px;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-height: 100vh;
+  background-image: url(../src/assets/images/cool-discord-km3qgnef4xto64fk.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
