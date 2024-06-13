@@ -23,26 +23,28 @@
     color: var(--grey-color-light);
   }
 
-  .form input {
-    padding: var(--medium-size);
+  .form {
+    input {
+      padding: var(--medium-size);
+    }
+
+    input[type="password"] {
+      margin-bottom: var(--short-size);
+    }
+
+    a {
+      color: var(--blue-color-light);
+      text-decoration: none;
+      text-align: left;
+    }
   }
-}
 
-.login-container .form input[type="password"] {
-  margin-bottom: var(--short-size);
-}
-
-.login-container .form a {
-  color: var(--blue-color-light);
-  text-decoration: none;
-  text-align: left;
-}
-
-.login-container .continue {
-  background-color: var(--violet-color);
-  border-radius: var(--short-size);
-  margin-bottom: var(--medium-size);
-  color: var(--white-color);
+  .continue {
+    background-color: var(--violet-color);
+    border-radius: var(--short-size);
+    margin-bottom: var(--medium-size);
+    color: var(--white-color);
+  }
 }
 
 .qr-container {
@@ -52,25 +54,25 @@
   align-items: center;
   text-align: center;
   margin-top: var(--large-size);
+
+  span {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: var(--medium-size);
+  }
+
+  p {
+    color: var(--grey-color-light);
+    margin: unset;
+  }
 }
 
 .qr-img {
   width: 200px;
   margin-bottom: 30px;
-}
 
-.qr-img img {
-  width: 100%;
-  border-radius: var(--medium-size);
-}
-
-.qr-container span {
-  font-size: 24px;
-  font-weight: 500;
-  margin-bottom: var(--medium-size);
-}
-
-.qr-container p {
-  color: var(--grey-color-light);
-  margin: unset;
+  img {
+    width: 100%;
+    border-radius: var(--medium-size);
+  }
 }
