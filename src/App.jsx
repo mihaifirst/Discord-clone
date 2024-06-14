@@ -1,12 +1,14 @@
-import "./App.css";
-import Register from "./components/Register";
-import Login from "./components/Login";
+import "./App.scss";
+import Register from "./components/Register/Register";
+import Login from "./components/Login/Login";
+import ForgotPassword from "./components/ForgotPassword/ForgotPassword";
 
 function App() {
   return (
     <>
-      <Login />
+      {/* <Login /> */}
       {/* <Register /> */}
+      <ForgotPassword />
     </>
   );
 }
