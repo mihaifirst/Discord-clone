@@ -6,9 +6,9 @@ import ForgotPassword from "./components/ForgotPassword/ForgotPassword";
 function App() {
   return (
     <>
-      {/* <Login /> */}
+      <Login />
       {/* <Register /> */}
-      <ForgotPassword />
+      {/* <ForgotPassword /> */}
     </>
   );
 }
