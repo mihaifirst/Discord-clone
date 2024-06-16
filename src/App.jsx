@@ -11,8 +11,8 @@ function App() {
       {/* <Login /> */}
       {/* <Register /> */}
       {/* <ForgotPassword /> */}
-      {/* <ServerList /> */}
-      <MainPage />
+      <ServerList />
+      {/* <MainPage /> */}
     </>
   );
 }

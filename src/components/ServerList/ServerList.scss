@@ -1,5 +1,5 @@
 .server-list {
-  height: 100vh;
+  min-height: 100vh;
   width: 100px;
   background-color: var(--grey-color-darker);
   display: flex;
@@ -52,7 +52,7 @@
   }
 
   &--add-server {
-    height: 60px;
+    min-height: 60px;
     width: 60px;
     background-color: var(--grey-color-dark);
     border-radius: 50%;
@@ -68,7 +68,7 @@
   }
 
   &--download-data {
-    height: 60px;
+    min-height: 60px;
     width: 60px;
     background-color: var(--grey-color-dark);
     border-radius: 50%;
