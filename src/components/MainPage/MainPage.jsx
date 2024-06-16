@@ -1,11 +1,12 @@
 import React from "react";
 import "./MainPage.scss";
+import ServerList from "../ServerList/ServerList";
 
 const MainPage = () => {
   return (
     <>
       <div className="main-page">
-        <div className="main-page--server-list"></div>
+        <ServerList />
         <div className="main-page--friends-list"></div>
         <div className="main-page--chat-content"></div>
         <div className="main-page--server-users"></div>
