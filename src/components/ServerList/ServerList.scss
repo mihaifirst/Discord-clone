@@ -1,0 +1,83 @@
+.server-list {
+  height: 100vh;
+  width: 100px;
+  background-color: var(--grey-color-darker);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+
+  &--discord {
+    img {
+      width: 100%;
+    }
+  }
+
+  &--line {
+    width: 40px;
+    height: 2px;
+    background-color: var(--grey-color-dark-02);
+  }
+
+  &--user {
+    position: relative;
+    img {
+      height: 60px;
+      width: 100%;
+      border-radius: 50%;
+
+      &:hover {
+        border-radius: 30%;
+        transition: border-radius 0.2s ease-in;
+      }
+    }
+
+    span {
+      height: 20px;
+      width: 20px;
+      position: absolute;
+      content: "";
+      bottom: 0;
+      right: 0;
+      font-weight: 700;
+      background-color: red;
+      border-radius: 50%;
+      border: 3px solid black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  &--add-server {
+    height: 60px;
+    width: 60px;
+    background-color: var(--grey-color-dark);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:hover {
+      background-color: var(--green-color-dark-01);
+      border-radius: 30%;
+      transition: border-radius 0.2s ease-in;
+    }
+  }
+
+  &--download-data {
+    height: 60px;
+    width: 60px;
+    background-color: var(--grey-color-dark);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      width: 50%;
+    }
+  }
+}
