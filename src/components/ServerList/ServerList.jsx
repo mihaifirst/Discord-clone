@@ -7,9 +7,9 @@ import fruits from "../../assets/images/fruits.jpg";
 import cat from "../../assets/images/cat.jpg";
 import mountain from "../../assets/images/mountain.jpg";
 import pen from "../../assets/images/pen.jpg";
-import download from "../../assets/images/download.png";
+import plus from "../../assets/images/plus.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPlus, faGear } from "@fortawesome/free-solid-svg-icons";
+import { faGear } from "@fortawesome/free-solid-svg-icons";
 
 const ServerList = () => {
   return (
@@ -20,11 +20,9 @@ const ServerList = () => {
       <div className="server-list--line"></div>
       <div className="server-list--user">
         <img src={javascript_logo} />
-        <span>1</span>
       </div>
       <div className="server-list--user">
         <img src={pants} />
-        <span>5</span>
       </div>
       <div className="server-list--user">
         <img src={fruits} />
@@ -38,14 +36,12 @@ const ServerList = () => {
       <div className="server-list--user">
         <img src={pen} />
       </div>
-      <div className="server-list--add-server">
-        <FontAwesomeIcon icon={faPlus} />
-      </div>
+
       <div className="server-list--add-server">
         <FontAwesomeIcon icon={faGear} />
       </div>
       <div className="server-list--download-data">
-        <img src={download} />
+        <img src={plus} fill="#000000" />
       </div>
     </div>
   );
