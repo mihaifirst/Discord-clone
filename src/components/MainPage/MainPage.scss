@@ -1,21 +1,21 @@
 .main-page {
   display: flex;
   flex-direction: row;
-  width: 90vw;
+  width: 100vw;
   height: 100vh;
 
   &--server-list {
-    min-width: 100px;
+    width: 100px;
     background-color: var(--grey-color-dark);
   }
 
   &--friends-list {
-    min-width: 300px;
+    width: 300px;
     background-color: var(--grey-color-dark-01);
   }
 
   &--chat-content {
-    min-width: 60%;
+    width: 100%;
     background-color: var(--grey-color-darker);
   }
 
