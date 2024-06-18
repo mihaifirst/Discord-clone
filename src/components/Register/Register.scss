@@ -1,9 +1,9 @@
 .container > span {
-  color: var(--color-white);
-  font-size: 24px;
-  font-weight: 600;
   margin-top: 0;
   margin-bottom: 15px;
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--color-white);
 }
 
 .form {
@@ -15,21 +15,21 @@
   }
 
   > span {
-    color: var(--color-grey-light);
-    margin-bottom: var(--medium-size);
     align-self: flex-start;
+    margin-top: var(--medium-size);
+    margin-bottom: var(--medium-size);
     font-size: 14px;
     font-weight: 700;
-    margin-top: var(--medium-size);
+    color: var(--color-grey-light);
   }
 
   input {
-    font-size: var(--large-size);
     outline: 0px;
-    padding: var(--short-size);
     margin-bottom: 1var (--short-size);
     border: 0px;
     border-radius: var(--short-size);
+    padding: var(--short-size);
+    font-size: var(--large-size);
     background-color: var(--color-grey-darker);
     color: var(--color-white);
   }
@@ -40,32 +40,32 @@
   justify-content: space-between;
 
   select {
-    background-color: var(--color-grey-darker);
-    padding: var(--medium-size);
-    width: 140px;
-    color: var(--color-grey-light);
-    border-radius: var(--short-size);
     border: none;
+    border-radius: var(--short-size);
+    width: 140px;
+    padding: var(--medium-size);
+    background-color: var(--color-grey-darker);
+    color: var(--color-grey-light);
   }
 }
 
 .optional {
-  margin-top: var(--large-size);
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: var(--medium-size);
+  margin-top: var(--large-size);
 
   input[type="checkbox"] {
     position: relative;
+    appearance: none;
     width: var(--extra-large-size);
     height: var(--extra-large-size);
-    background-color: var(--color-grey-dark);
-    border-radius: 8px;
-    appearance: none;
-    cursor: pointer;
     margin: 0;
     border: 2px solid var(--color-grey-light);
+    border-radius: 8px;
+    background-color: var(--color-grey-dark);
+    cursor: pointer;
   }
 
   input[type="checkbox"]:checked {
@@ -91,10 +91,10 @@
 
   label {
     margin: 0;
-    color: var(--color-grey-light);
+    width: 400px;
     font-size: 14px;
     text-align: left;
-    width: 400px;
+    color: var(--color-grey-light);
 
     a {
       color: var(--color-blue-light);
