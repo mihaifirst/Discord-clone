@@ -36,11 +36,7 @@ const ServerList = () => {
       <div className="server-list--user">
         <img src={pen} />
       </div>
-
-      <div className="server-list--add-server">
-        <FontAwesomeIcon icon={faGear} />
-      </div>
-      <div className="server-list--download-data">
+      <div className="item server-list--add-server">
         <img src={plus} fill="#000000" />
       </div>
     </div>

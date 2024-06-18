@@ -1,5 +1,5 @@
 .container > span {
-  color: var(--white-color);
+  color: var(--color-white);
   font-size: 24px;
   font-weight: 600;
   margin-top: 0;
@@ -11,11 +11,11 @@
   flex-direction: column;
 
   span {
-    color: var(--red-color);
+    color: var(--color-red);
   }
 
   > span {
-    color: var(--grey-color-light);
+    color: var(--color-grey-light);
     margin-bottom: var(--medium-size);
     align-self: flex-start;
     font-size: 14px;
@@ -30,8 +30,8 @@
     margin-bottom: 1var (--short-size);
     border: 0px;
     border-radius: var(--short-size);
-    background-color: var(--grey-color-darker);
-    color: var(--white-color);
+    background-color: var(--color-grey-darker);
+    color: var(--color-white);
   }
 }
 
@@ -40,10 +40,10 @@
   justify-content: space-between;
 
   select {
-    background-color: var(--grey-color-darker);
+    background-color: var(--color-grey-darker);
     padding: var(--medium-size);
     width: 140px;
-    color: var(--grey-color-light);
+    color: var(--color-grey-light);
     border-radius: var(--short-size);
     border: none;
   }
@@ -60,16 +60,16 @@
     position: relative;
     width: var(--extra-large-size);
     height: var(--extra-large-size);
-    background-color: var(--grey-color-dark);
+    background-color: var(--color-grey-dark);
     border-radius: 8px;
     appearance: none;
     cursor: pointer;
     margin: 0;
-    border: 2px solid var(--grey-color-light);
+    border: 2px solid var(--color-grey-light);
   }
 
   input[type="checkbox"]:checked {
-    background-color: var(--violet-color);
+    background-color: var(--color-violet);
   }
 
   input[type="checkbox"]::before {
@@ -86,18 +86,18 @@
   }
 
   input[type="checkbox"]:checked::before {
-    border-color: var(--white-color);
+    border-color: var(--color-white);
   }
 
   label {
     margin: 0;
-    color: var(--grey-color-light);
+    color: var(--color-grey-light);
     font-size: 14px;
     text-align: left;
     width: 400px;
 
     a {
-      color: var(--blue-color-light);
+      color: var(--color-blue-light);
     }
   }
 }
@@ -105,23 +105,23 @@
 .continue {
   margin-top: var(--large-size);
   border-radius: var(--short-size);
-  color: var(--grey-color-light);
+  color: var(--color-grey-light);
   border-radius: 8px;
   border: 1px solid transparent;
   padding: var(--medium-size);
   font-size: 16px;
   font-weight: 500;
   font-family: inherit;
-  background-color: var(--violet-color);
+  background-color: var(--color-violet);
   cursor: pointer;
 }
 
 .account {
   margin-top: var(--large-size);
   text-align: left;
-  color: var(--blue-color-light);
+  color: var(--color-blue-light);
 }
 
 .white {
-  color: var(--white-color);
+  color: var(--color-white);
 }
