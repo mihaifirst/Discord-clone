@@ -2,7 +2,7 @@
   box-sizing: border-box;
   min-width: 500px;
   padding: var(--extra-large-size);
-  background-color: var(--grey-color-dark);
+  background-color: var(--color-grey-dark);
   border-radius: var(--medium-size);
 }
 
@@ -20,7 +20,7 @@
 
   p {
     margin-top: var(--medium-size);
-    color: var(--grey-color-light);
+    color: var(--color-grey-light);
   }
 
   .form {
@@ -33,17 +33,17 @@
     }
 
     a {
-      color: var(--blue-color-light);
+      color: var(--color-blue-light);
       text-decoration: none;
       text-align: left;
     }
   }
 
   .continue {
-    background-color: var(--violet-color);
+    background-color: var(--color-violet);
     border-radius: var(--short-size);
     margin-bottom: var(--medium-size);
-    color: var(--white-color);
+    color: var(--color-white);
   }
 }
 
@@ -62,7 +62,7 @@
   }
 
   p {
-    color: var(--grey-color-light);
+    color: var(--color-grey-light);
     margin: unset;
   }
 }
