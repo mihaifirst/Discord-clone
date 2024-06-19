@@ -1,11 +1,11 @@
 .friends-list {
+  display: flex;
+  flex-direction: column;
   height: 100vh;
   width: 400px;
   padding: 5px;
   box-sizing: border-box;
   background-color: var(--color-grey-dark-01);
-  display: flex;
-  flex-direction: column;
 
   &--input {
     display: flex;
@@ -138,9 +138,9 @@
   }
 
   .profile-image {
+    position: relative;
     width: 40px;
     height: 40px;
-    position: relative;
 
     img {
       width: 100%;
@@ -151,13 +151,13 @@
     &::after {
       content: "";
       position: absolute;
-      height: 10px;
-      width: 10px;
-      border-radius: 50%;
-      background-color: green;
       bottom: 0;
       right: 0;
+      width: 10px;
+      height: 10px;
       border: 2px solid var(--color-grey-darker);
+      border-radius: 50%;
+      background-color: green;
     }
   }
 
@@ -165,8 +165,8 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    margin-top: auto;
     height: 50px;
+    margin-top: auto;
     padding: 2px;
     background-color: var(--color-grey-darker-01);
 
@@ -187,8 +187,8 @@
     }
 
     .icon {
-      height: 25px;
       width: 25px;
+      height: 25px;
 
       img {
         width: 100%;
