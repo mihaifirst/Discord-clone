@@ -1,0 +1,211 @@
+.friends-list {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 400px;
+  padding: 5px;
+  box-sizing: border-box;
+  background-color: var(--color-grey-dark-01);
+
+  &--input {
+    display: flex;
+    padding: 10px;
+    padding-left: 0;
+    border-radius: 5px;
+    background-color: var(--color-grey-darker);
+
+    input {
+      margin-left: 5px;
+      border: none;
+      background-color: var(--color-grey-darker);
+      color: var(--color-white);
+      font-size: 14px;
+
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+
+  &--menu {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+
+    &--item {
+      display: flex;
+      align-items: center;
+
+      &--icon {
+        width: 40px;
+        height: 40px;
+
+        img {
+          width: 100%;
+          filter: brightness(0) saturate(100%) invert(54%) sepia(11%)
+            saturate(21%) hue-rotate(337deg) brightness(91%) contrast(94%);
+        }
+      }
+
+      &--text {
+        margin-left: 5px;
+        color: var(--color-grey-light);
+      }
+
+      &:hover {
+        background-color: var(--color-grey-dark-02);
+        border-radius: 5px;
+
+        img {
+          filter: brightness(0) saturate(100%) invert(88%) sepia(0%)
+            saturate(465%) hue-rotate(254deg) brightness(90%) contrast(80%);
+        }
+
+        span {
+          color: var(--color-white);
+        }
+      }
+    }
+  }
+
+  &--direct--messages {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    color: var(--color-grey-light);
+
+    &--icon {
+      width: 40px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 50%;
+        filter: brightness(0) saturate(100%) invert(62%) sepia(7%)
+          saturate(114%) hue-rotate(314deg) brightness(100%) contrast(76%);
+      }
+    }
+
+    &:hover {
+      color: var(--color-whitet);
+
+      img {
+        filter: brightness(0) saturate(100%) invert(100%) sepia(0%)
+          saturate(5117%) hue-rotate(271deg) brightness(119%) contrast(106%);
+      }
+    }
+  }
+
+  &--messages {
+    display: flex;
+    flex-direction: column;
+
+    &--user {
+      display: flex;
+      align-items: center;
+      padding: 5px;
+
+      &--name {
+        margin-left: 10px;
+        color: var(--color-grey-light);
+      }
+
+      &--icon {
+        height: 40px;
+        width: 40px;
+        margin-left: auto;
+        visibility: hidden;
+
+        img {
+          width: 100%;
+          filter: brightness(0) saturate(100%) invert(62%) sepia(7%)
+            saturate(114%) hue-rotate(314deg) brightness(100%) contrast(76%);
+        }
+      }
+
+      &:hover {
+        background-color: var(--color-grey-dark-02);
+        border-radius: 5px;
+
+        img {
+          visibility: visible;
+        }
+      }
+    }
+  }
+
+  .profile-image {
+    position: relative;
+    width: 40px;
+    height: 40px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 10px;
+      height: 10px;
+      border: 2px solid var(--color-grey-darker);
+      border-radius: 50%;
+      background-color: green;
+    }
+  }
+
+  &--user-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 50px;
+    margin-top: auto;
+    padding: 2px;
+    background-color: var(--color-grey-darker-01);
+
+    &--container {
+      display: flex;
+      align-items: center;
+      width: 50%;
+      padding: 2px;
+
+      &:hover {
+        border-radius: 5px;
+        background-color: var(--color-grey-dark-02);
+      }
+    }
+
+    &--username-status {
+      display: flex;
+      flex-direction: column;
+      margin-left: 5px;
+      text-align: left;
+
+      .status {
+        color: var(--color-grey-light);
+      }
+    }
+
+    .icon {
+      width: 25px;
+      height: 25px;
+
+      img {
+        width: 100%;
+        filter: brightness(0) saturate(100%) invert(54%) sepia(65%) saturate(3%)
+          hue-rotate(21deg) brightness(95%) contrast(94%);
+      }
+
+      &:hover {
+        background-color: var(--color-grey-dark-02);
+      }
+    }
+  }
+}
