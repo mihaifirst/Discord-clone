@@ -6,21 +6,21 @@
 
   &--server-list {
     width: 100px;
-    background-color: var(--grey-color-dark);
+    background-color: var(--color-grey-dark);
   }
 
   &--friends-list {
     width: 300px;
-    background-color: var(--grey-color-dark-01);
+    background-color: var(--color-grey-dark-01);
   }
 
   &--chat-content {
     width: 100%;
-    background-color: var(--grey-color-darker);
+    background-color: var(--color-grey-darker);
   }
 
   &--server-users {
     width: 300px;
-    background-color: var(--grey-color-darker-01);
+    background-color: var(--color-grey-darker-01);
   }
 }
