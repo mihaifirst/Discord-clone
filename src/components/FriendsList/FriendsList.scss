@@ -173,6 +173,13 @@
     &--container {
       display: flex;
       align-items: center;
+      width: 50%;
+      padding: 2px;
+
+      &:hover {
+        border-radius: 5px;
+        background-color: var(--color-grey-dark-02);
+      }
     }
 
     &--username-status {
