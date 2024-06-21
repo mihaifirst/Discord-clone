@@ -1,23 +1,23 @@
 require("dotenv").config();
 
 const express = require("express");
+const cors = require("cors");
 const app = express();
 
 const mongoose = require("mongoose");
 mongoose.Promise = global.Promise;
+mongoose.set("strictQuery", false);
 
-app.use(require("cors")());
-app.use(require("body-parser").json());
-
-/* Chat connection / sockets */
 const server = require("http").createServer(app);
 
-// const { User } = require("./app/shared/helpers/user.class");
+app.use(cors());
+app.use(express.json({ limit: "50mb" }));
+app.use(require("body-parser").json());
 
 /* Routes */
-// const userRoutes = require("./app/modules/user/user.routes");
+const userRoutes = require("./app/modules/user/user.routes");
 
-// app.use("/api", userRoutes);
+app.use("/api", userRoutes);
 
 const mongoConfig = require("./app/config/mongo.config");
 const srv = (err) => {
