@@ -16,6 +16,9 @@ const userSchema = mongoose.Schema({
   avatar: {
     type: String,
   },
+  isActive: {
+    type: Boolean,
+  },
   // status: {
   //   type: String,
   //   enum: StatusEnum,
@@ -24,3 +27,4 @@ const userSchema = mongoose.Schema({
 
 const usersCollection = mongoose.model("User", userSchema);
 module.exports = usersCollection;
+
