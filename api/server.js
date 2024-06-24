@@ -4,6 +4,7 @@ const express = require("express");
 const cors = require("cors");
 const app = express();
 
+/* Database */
 const mongoose = require("mongoose");
 mongoose.Promise = global.Promise;
 mongoose.set("strictQuery", false);
