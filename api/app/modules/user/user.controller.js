@@ -58,7 +58,7 @@ module.exports = {
 };
 
 async function getUsersFn() {
-  return usersCollection.find();
+  return usersCollection.find().populate("servers");
 }
 
 async function createUserFn(usersProps) {
@@ -87,3 +87,4 @@ async function updateUserByIdFn(id, newUser) {
 async function deleteUserByIdFn(id) {
   return usersCollection.findByIdAndDelete(id);
 }
+

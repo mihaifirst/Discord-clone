@@ -16,8 +16,10 @@ app.use(require("body-parser").json());
 
 /* Routes */
 const userRoutes = require("./app/modules/user/user.routes");
+const serverRoutes = require("./app/modules/server/server.routes");
 
-app.use("/api", userRoutes);
+app.use("/api/users", userRoutes);
+app.use("/api/servers", serverRoutes);
 
 const mongoConfig = require("./app/config/mongo.config");
 const srv = (err) => {
