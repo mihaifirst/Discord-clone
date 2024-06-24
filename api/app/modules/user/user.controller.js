@@ -3,7 +3,7 @@ const usersCollection = require("./schemas/user.schema");
 
 module.exports = {
   getUsers(request, response) {
-    getUsersFn()
+    getUsersFn(request.user)
       .then((users) => {
         response.write(JSON.stringify(users));
         response.end();
@@ -35,7 +35,11 @@ module.exports = {
         response.write(JSON.stringify(updateUser));
         response.end();
       })
-      .catch((error) => response.sendStatus(StatusCodes.INTERNAL_SERVER_ERROR));
+      .catch((error) =>
+        response
+          .sendStatus(StatusCodes.INTERNAL_SERVER_ERROR)
+          .send({ message: error.message })
+      );
   },
   deleteUserById(request, response) {
     const id = request.params.id;

@@ -20,6 +20,10 @@ const userSchema = mongoose.Schema({
   //   type: String,
   //   enum: StatusEnum,
   // },
+  server: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: "Server",
+  },
 });
 
 const usersCollection = mongoose.model("User", userSchema);
